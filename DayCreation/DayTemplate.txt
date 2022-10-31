@@ -1,0 +1,16 @@
+from DayBase import DayBase, DayBaseSmall
+
+
+class Day{DayNumber}(DayBaseSmall):
+    def __init__(self):
+        DayBaseSmall.__init__(self, {DayNumber}, to_int=False)
+
+    def part1(self):
+        pass
+
+    def part2(self):
+        pass
+
+
+day = Day{DayNumber}()
+day.run()
